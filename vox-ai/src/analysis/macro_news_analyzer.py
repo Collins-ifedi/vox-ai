@@ -211,7 +211,7 @@ if __name__ == "__main__":
     
     # --- IMPORTANT ---
     # For this example to work with LLM sentiment, you MUST ensure:
-    # 1. sentiment_utils.py is updated to use Llama 4 Maverick.
+    # 1. sentiment_utils.py is updated to use qwen/qwen-coder.
     # 2. The OPENROUTER_API_KEY environment variable is set for sentiment_utils.py to access.
     # Example (in your terminal before running the script):
     # export OPENROUTER_API_KEY="your_actual_openrouter_api_key_here"
