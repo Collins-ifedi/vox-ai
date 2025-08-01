@@ -112,7 +112,7 @@ DEFAULT_SYMBOL = "BTC" # This is a coin name, not a trading pair for this defaul
 DEFAULT_EXCHANGE = "binance"
 DEFAULT_TIMEFRAME = "1h" # Changed to 1h to align with new SignalGenerator's default
 DEFAULT_LIMIT = 600
-DEFAULT_LLM_MODEL = "meta-llama/llama-4-maverick" # Using a hypothetical updated model name
+DEFAULT_LLM_MODEL = "qwen/qwen3-coder:free" # Using a hypothetical updated model name
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MAX_HISTORY_LEN = 50 # Limit saved history size
 
@@ -169,7 +169,7 @@ class OutputConfig:
     max_response_length: int = 2000 # Max length for LLM-generated parts of responses
     verbose: bool = True # Controls typing effect, could be tied to global log level too
     initial_welcome_message: str = ( # Fallback welcome message - "on-chain" removed
-        "Hey there! I'm your crypto trading assistant from Onitsha, Nigeria! "
+        "Hey there! I'm your crypto analyst assistant from Onitsha, Nigeria! "
         "I can help with signals, analysis (technical, patterns, sentiment, macro, anomalies), " # "on-chain" removed
         "discuss crypto trends, the world economy, or just chat. Kedu ka ị melu? How can I help?"
     )
