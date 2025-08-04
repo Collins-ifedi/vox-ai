@@ -29,3 +29,4 @@ docx
 PyMuPDF
 databases
 sqlalchemy
+Starlette
