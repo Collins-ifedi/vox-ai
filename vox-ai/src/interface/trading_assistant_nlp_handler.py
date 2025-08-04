@@ -77,7 +77,7 @@ try:
     from src.signal_generation.signal_generator import SignalGenerator
     from src.analysis.combined_strategies import CombinedStrategiesRunner
     from src.interface.image import ImageIO, get_openai_api_key
-    from src.analysis.visual_analyzer import VisualAnalyzer # INTEGRATED: New visual analyzer
+    from src.interface.visual_analyzer import VisualAnalyzer # INTEGRATED: New visual analyzer
     from utils.coin_symbol_mapper import get_symbol, generate_symbol_variants
     from utils.logger import get_logger
     logger = get_logger("MarketData")
