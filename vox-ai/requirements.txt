@@ -11,12 +11,14 @@ python-dateutil==2.9.0.post0
 PyYAML==6.0.2
 regex==2024.11.6
 requests==2.32.4
+asyncpg==0.28.0
 setuptools==79.0.1
 textblob==0.19.0
 tomlkit==0.13.2
 tqdm==4.67.1
 urllib3==2.4.0
 uvicorn==0.35.0
+asyncpg>=0.28.0
 websocket==0.2.1
 websockets==15.0.1
 wheel==0.45.1
