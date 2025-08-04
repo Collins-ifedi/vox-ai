@@ -26,6 +26,6 @@ stripe
 passlib[bcrypt]
 google-auth
 python-docx
-PyMuPDF
+pdfplumber
 databases[postgresql]
 sqlalchemy
