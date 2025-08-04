@@ -21,7 +21,7 @@ websocket==0.2.1
 websockets==15.0.1
 wheel==0.45.1
 openai
-jose==3.2.0
+Pyjwt
 stripe
 passlib[bcrypt]
 google-auth
