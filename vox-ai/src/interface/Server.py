@@ -871,7 +871,7 @@ routes = [
     Route("/api/analyze-file", endpoint=analyze_file_endpoint, methods=["POST", "OPTIONS"]),
 ]
 
-middleware = [Middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])]
+middleware = [Middleware(CORSMiddleware, allow_origins=[os.getenv("FRONTEND_DOMAIN")], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])]
 app = Starlette(
     debug=True, 
     routes=routes, 
