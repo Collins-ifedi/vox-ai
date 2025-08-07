@@ -243,7 +243,7 @@ async def send_email_with_brevo(email: str, subject: str, html_content: str):
     if not BREVO_API_KEY:
         logger.error("BREVO_API_KEY not configured."); raise HTTPException(500, "Email service not available.")
     async with httpx.AsyncClient() as client:
-        response = await client.post("https://api.brevo.com/v3/smtp/email", headers={"api-key": BREVO_API_KEY, "Content-Type": "application/json"}, json={"sender": {"name": "Voxaroid", "email": "noreply@voxaroid.com"}, "to": [{"email": email}], "subject": subject, "htmlContent": html_content})
+        response = await client.post("https://api.brevo.com/v3/smtp/email", headers={"api-key": BREVO_API_KEY, "Content-Type": "application/json"}, json={"sender": {"name": "Voxaroid", "email": "ifedicollinslinx@gmail.com"}, "to": [{"email": email}], "subject": subject, "htmlContent": html_content})
     response.raise_for_status()
 
 
