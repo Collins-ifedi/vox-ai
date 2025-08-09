@@ -213,7 +213,7 @@ class OutputConfig:
     max_response_length: int = 2000 # Max length for LLM-generated parts of responses
     verbose: bool = True # Controls typing effect, could be tied to global log level too
     initial_welcome_message: str = (
-        "Hey there! I'm your crypto trading assistant from Onitsha, Nigeria! "
+        "Hey there! I'm your crypto analyst assistant from Nigeria! "
         "I can help with signals, analysis (technical, patterns, sentiment, macro, anomalies, visual documents), "
         "discuss crypto trends, the world economy, or just chat. Kedu ka ị melu? How can I help?"
     )
