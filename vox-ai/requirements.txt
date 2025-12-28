@@ -1,4 +1,4 @@
-beautifulsoup
+beautifulsoup4
 ccxt
 cryptography
 fastapi
